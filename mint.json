@@ -1,51 +1,41 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "NEX Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#242424",
+    "light": "#7ad36b",
+    "dark": "#242424",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#242424",
+      "to": "#474747"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:outreact@nex.art"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Console",
+    "url": "https://console.nex.art"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Home",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://nex.art"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Console",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://console.nex.art"
     }
   ],
   "navigation": [
@@ -53,39 +43,40 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "signing-up",
+        "onboarding"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Multimodal Prompting and Blocks",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "blocks/assets",
+        "blocks/text-prompting",
+        "blocks/pose",
+        "blocks/base",
+        "blocks/color",
+        "blocks/sketch"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Image Enhancer",
       "pages": [
-        "api-reference/introduction"
+        "enhancer/enhance"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Subscriptions",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "pricing"
       ]
     }
   ],
+  "integrations": {
+    "intercom": "l0f6nxlh"
+  },
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/_NEXOfficial",
+    "instagram": "https://www.instagram.com/_nexofficial/",
+    "linkedin": "https://www.linkedin.com/company/nex-synthetic-technologies/"
   }
 }
