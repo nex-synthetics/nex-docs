@@ -47,9 +47,16 @@ How does this work? The raw caption is directly submitted to the model. At times
 Raw Mode Comparison  
 Prompt: a beautiful landscape shot of a robot standing in the middle of an open grass field, photorealistic, 4k
 
-<Frame>
-  <img src="/images/blocks/text/4.png" />
-</Frame>
+<CardGroup cols={2}>
+  <Frame caption="Raw Mode On">
+    <img src="/images/blocks/text/4.webp" />
+  </Frame>
+
+  <Frame caption="Raw Mode Off">
+    <img src="/images/blocks/text/5.webp" />
+  </Frame>
+</CardGroup>
+
 
 Note:  
 The output follows the prompt much more closely when Raw Mode is turned On. When Raw Mode is turned Off, additional details appear such as: the lighting of the image, presence of the sun, and more prominent clouds.
