@@ -15,10 +15,11 @@
       "to": "#474747"
     }
   },
+  "isWhiteLabeled": true,
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:outreact@nex.art"
+      "url": "mailto:outreach@nex.art"
     }
   ],
   "topbarCtaButton": {
